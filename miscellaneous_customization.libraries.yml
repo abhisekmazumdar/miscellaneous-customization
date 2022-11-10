@@ -1,0 +1,7 @@
+# Custom module library for general purposes.
+miscellaneous_customization:
+  js:
+    js/miscellaneous-customization.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
