@@ -69,6 +69,7 @@ class NodeListBlock extends BlockBase implements ContainerFactoryPluginInterface
    * {@inheritdoc}
    */
   public function build() {
+
     $nodeStorage = $this->entityTypeManager->getStorage('node');
     $article = array_values($nodeStorage->loadMultiple($nodeStorage->getQuery()->condition('type', 'article')->execute()));
     $page = array_values($nodeStorage->loadMultiple($nodeStorage->getQuery()->condition('type', 'page')->execute()));

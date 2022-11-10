@@ -8,3 +8,11 @@ services:
     class: Drupal\miscellaneous_customization\Access\UserRestrictionAccessChecker
     tags:
       - { name: access_check, applies_to: _user_restriction_access }
+
+  miscellaneous_customization.parent_fetch_user_by_route:
+    class: Drupal\miscellaneous_customization\ParentFetchUserByRoute
+    arguments: ['@current_route_match']
+
+  miscellaneous_customization.child_fetch_node_by_route:
+    class: Drupal\miscellaneous_customization\ChildFetchNodeByRoute
+    arguments: ['@current_route_match']
