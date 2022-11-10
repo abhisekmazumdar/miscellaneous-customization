@@ -1,0 +1,10 @@
+services:
+  miscellaneous_customization.route_subscriber:
+    class: Drupal\miscellaneous_customization\EventSubscriber\UserRouteSubscriber
+    tags:
+      - { name: event_subscriber }
+
+  access_check.miscellaneous_customization.user_restriction_access_check:
+    class: Drupal\miscellaneous_customization\Access\UserRestrictionAccessChecker
+    tags:
+      - { name: access_check, applies_to: _user_restriction_access }
