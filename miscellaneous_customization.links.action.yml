@@ -1,0 +1,5 @@
+miscellaneous_reference_entity.add_form:
+  title: 'Add miscellaneous reference entity'
+  route_name: entity.miscellaneous_reference_entity.add_form
+  appears_on:
+    - entity.miscellaneous_reference_entity.collection

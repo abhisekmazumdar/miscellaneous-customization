@@ -1,0 +1,9 @@
+entity.miscellaneous_reference_entity.settings:
+  title: 'Settings'
+  route_name: entity.miscellaneous_reference_entity.settings
+  base_route: entity.miscellaneous_reference_entity.settings
+entity.miscellaneous_reference_entity.collection:
+  title: 'Miscellaneous Reference Entities'
+  route_name: entity.miscellaneous_reference_entity.collection
+  base_route: system.admin_content
+  weight: 10

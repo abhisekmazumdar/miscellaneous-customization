@@ -1,0 +1,7 @@
+entity.miscellaneous_reference_entity.settings:
+  path: 'admin/structure/miscellaneous-reference-entity'
+  defaults:
+    _form: '\Drupal\miscellaneous_customization\Form\MiscellaneousReferenceEntitySettingsForm'
+    _title: 'Miscellaneous Reference Entity'
+  requirements:
+    _permission: 'administer miscellaneous reference entity'

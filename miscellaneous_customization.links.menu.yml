@@ -1,0 +1,10 @@
+entity.miscellaneous_reference_entity.settings:
+  title: 'Miscellaneous Reference Entity'
+  description: 'Configure a Miscellaneous Reference Entity type.'
+  route_name:  entity.miscellaneous_reference_entity.settings
+  parent: system.admin_structure
+entity.miscellaneous_reference_entity.collection:
+  title: 'Miscellaneous Reference Entities'
+  description: 'List of miscellaneous reference entities.'
+  route_name: entity.miscellaneous_reference_entity.collection
+  parent: system.admin_content
